@@ -1,7 +1,7 @@
 SymbolDoc
 =========
 
-![Python 3](https://img.shields.io/badge/python-3-blue.svg)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3760bf0f42404948879c5388254bea52)](https://www.codacy.com/app/fmartingr/symboldoc?utm_source=github.com&utm_medium=referral&utm_content=fmartingr/symboldoc&utm_campaign=badger) ![Python 3](https://img.shields.io/badge/python-3-blue.svg)
 
 Create a docstring given a module's symbol name.
 
