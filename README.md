@@ -1,7 +1,10 @@
 SymbolDoc
 =========
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3760bf0f42404948879c5388254bea52)](https://www.codacy.com/app/fmartingr/symboldoc?utm_source=github.com&utm_medium=referral&utm_content=fmartingr/symboldoc&utm_campaign=badger) ![Python 3](https://img.shields.io/badge/python-3-blue.svg)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/fmartingr/symboldoc/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/fmartingr/symboldoc/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/fmartingr/symboldoc/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/fmartingr/symboldoc/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/fmartingr/symboldoc/badges/build.png?b=master)](https://scrutinizer-ci.com/g/fmartingr/symboldoc/build-status/master)
+![Python 3](https://img.shields.io/badge/python-3-blue.svg)
 
 Create a docstring given a module's symbol name.
 
@@ -14,7 +17,7 @@ pip3 install symboldoc
 ## Usage example
 
 ```
-$ symboldoc path/to/module.py my_function
+$ symboldoc path/to/module.py my_function sphinx
 """Brief summary for method my_function
 
 The first line is brief explanation, which may be completed with
@@ -30,3 +33,9 @@ a longer one.
 :rtype: The return type description
 """
 ```
+
+## Flavors
+
+| Name | Available |
+| ---- | --------- |
+| Sphinx | Sort of! |

@@ -134,12 +134,11 @@ def cli():
         symbol = sys.argv[2]
         flavor = 'sphinx'
 
-        if len(sys.argv) >= 4:
-            if sys.argv[3] in FLAVORS.keys():
-                flavor = sys.argv[3]
+        if all((len(sys.argv) >= 4, sys.argv[3] in FLAVORS.keys())):
+            flavor = sys.argv[3]
 
     except IndexError:
-        print('Usage: <path to module> <symbol>')
+        print('Usage: <path to module> <symbol> <flavor>')
         sys.exit(1)
 
     result = get_docstring_for_symbol(
